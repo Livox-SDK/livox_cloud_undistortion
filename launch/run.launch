@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="livox_dedistortion_pkg" type="livox_repub_node" name="livox_repub_node">
+    </node>
+
+    <node pkg="livox_dedistortion_pkg" type="deskew_node" name="deskew_node">
+    </node>
+
+</launch>
