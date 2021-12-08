@@ -7,11 +7,11 @@
     dekew
   </description>
 
-  <maintainer email="livox">livox</maintainer>
+  <maintainer email="dev@livoxtech.com"">livox</maintainer>
 
   <license>BSD</license>
 
-  <author email="livox">livox</author>
+  <author email="dev@livoxtech.com"">livox</author>
   
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
