@@ -31,3 +31,7 @@ roslaunch livox_dedistortion_pkg run.launch
 
 ## Interface introduction
 The member function UndistortPcl of the class ImuProcess defined in the header data_process.h, is used for the point cloud undistortion. The parameter Sophus::SE3d Tbe is the egomotion. If you can provide ego motion, just call this function. Otherwise, the function Process (also a member function of the class ImuProcess) is anothor choice, which uses the IMU data to deskew the rotation distortion.
+
+## Other work
+This project aims to eliminate ego motion distortion. For target motion distortion correction, we recommend reading this work for reference.
+[Lidar with Velocity](https://github.com/ISEE-Technology/lidar-with-velocity)
